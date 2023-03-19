@@ -1,0 +1,24 @@
+@import "maintaince";
+@import "buttons";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.task-container {
+  background-color: aquamarine;
+  width: 70%;
+  padding: 2em;
+  border-radius: 2em;
+
+  .task {
+    text-align: left;
+    background-color: rgb(63, 58, 58);
+    padding: 1em;
+    color: aliceblue;
+    margin: 0.3em;
+    border-radius: 1em;
+  }
+}

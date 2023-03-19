@@ -1,0 +1,8 @@
+.btn-trash {
+  &:hover {
+    color: lighten(red, 20%);
+  }
+  &:active {
+    color: red;
+  }
+}
